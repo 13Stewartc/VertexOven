@@ -3,7 +3,7 @@
 
 [**Vertex Oven**](https://blendermarket.com/products/vertex-oven) bakes ambient occlusion directly to vertex colors (and, optionally, vertex groups.)
 
-Vertex Oven works with Blender 2.80 and up.
+This version of Vertex Oven works with Blender 4.2.0 and up.
 
 ![The operator settings as of v0.1.4](https://raw.githubusercontent.com/ForestKatsch/VertexOven/master/media/operator-settings.png)
 
