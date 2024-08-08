@@ -14,7 +14,7 @@ This version of Vertex Oven works with Blender 4.2.0 and up.
 
 # Installation
 
-The addon is available on [Blender Market for **$20**](https://blendermarket.com/products/vertex-oven).
+The addon is available here on my github & from its original [Author](https://github.com/ForestKatsch/VertexOven).
 Once downloaded, here's how to install the addon:
 
 * Open Blender's **Preferences** window and navigate to the **Add-ons** tab
@@ -23,9 +23,7 @@ Once downloaded, here's how to install the addon:
 
 ---
 
-To download from GitHub for free, download the file `vertex-oven-<version>.zip` from the [Releases page](https://github.com/ForestKatsch/VertexOven/releases).
-If you find that Vertex Oven improves your workflow, please consider [purchasing it as well](https://blendermarket.com/products/vertex-oven).
-Thank you for considering Vertex Oven!
+To download from GitHub for free, download the file `vertex-oven-<version>.zip` from the [Releases page](https://github.com/13Stewartc/VertexOven/releases).
 
 # How to Use
 
@@ -89,10 +87,6 @@ For a quick preview of vertex colors, you can also enter **Vertex Paint** mode (
 ## v0.1.0
 
 First release.
-
-# Support
-
-If you have any questions about this addon, email me at [forestcgk@gmail.com](mailto:forestcgk@gmail.com).
 
 # License
 
