@@ -17,9 +17,9 @@
 bl_info = {
     "name": "Vertex Oven",
     "description": "Bake ambient occlusion straight to vertex colors",
-    "author": "Forest Katsch",
-    "version": (0, 1, 9),
-    "blender": (2, 80, 0),
+    "author": "Forest Katsch & 13Stewartc",
+    "version": (0, 2, 0),
+    "blender": (4, 2, 0),
     "location": "3D View > Object > Vertex Oven",
     "warning": "Warning: this addon is still young, and problems may occur. If you're concerned about this addon, make sure you've backed up your Blender file first.",
     "support": "COMMUNITY",
@@ -539,7 +539,8 @@ determined by `self.options.sample_count`.
         self.points_to_bake = []
 
         mesh = self.active_mesh
-        mesh.calc_normals_split()
+        if bpy.app.version < (4, 2, 0):
+            self.mesh.calc_normals_split()
 
         print("Finding all points to be baked...")
         for poly in mesh.polygons:

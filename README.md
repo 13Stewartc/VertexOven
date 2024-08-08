@@ -42,6 +42,10 @@ For a quick preview of vertex colors, you can also enter **Vertex Paint** mode (
 
 # Changelog
 
+## v0.2.0
+
+* Added Support for Blender 4.2. (Not backwards compatible, though i did attempt to make it backwards compatible)
+
 ## v0.1.9
 
 * Increased normal offset to avoid issues with larger meshes.
